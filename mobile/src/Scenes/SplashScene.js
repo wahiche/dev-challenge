@@ -29,6 +29,7 @@ export default ({ navigation }) => (
     onPress={() => navigation.navigate('MainScene')}
   >
     <Text style={styles.header}>Best App v1.0</Text>
+    <Text style={styles.subHeader}>by - David Wahiche</Text>
     <Text style={styles.subHeader}>Tap to start.</Text>
   </TouchableOpacity>
 );

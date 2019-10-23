@@ -34,7 +34,7 @@ function generate() {
     const company = {
       id: uuid(),
       color: faker.internet.color(),
-      image: faker.image.business(),
+      image: faker.internet.dataUri(),
       name: faker.company.companyName(),
       suffice: faker.company.companySuffix(),
       catchPhrase: faker.company.catchPhrase(),
